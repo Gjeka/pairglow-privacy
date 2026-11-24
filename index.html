@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pair Glow privacy policy</title>
+<style>
+  :root { --paper: #eef0f5; --surface: #ffffff; --ink: #151826; --muted: #555b70; --line: #d3d7e2; --link: #1d6fd1; }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #0e1018; --surface: #181b26; --ink: #eef0f7; --muted: #a2a8bd; --line: #2c3142; --link: #4cb8ff; }
+  }
+  html { background: var(--paper); color: var(--ink); }
+  body { margin: 0; font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.2rem; margin: 32px 0 8px; }
+  p, li { color: var(--ink); }
+  em { color: var(--muted); font-style: normal; }
+  ul, ol { padding-left: 1.4em; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 15px; }
+  li { margin: 6px 0; }
+  a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+<h1>Pair Glow privacy policy</h1>
+<p><em>Effective 24 November 2026.</em></p>
+<p>Pair Glow is made by KGWorks. It links your phone with one other person's, so a tap on your widget makes theirs glow. To do that, a little information has to travel between your two phones through our server. This policy says exactly what, who handles it, and how to delete it. There is no account, no advertising, no analytics and no tracking.</p>
+<h2>What you share with the other person</h2>
+<ul><li><strong>Your name and its first letter</strong>, as you type them in Pair Glow. You choose what to write.</li><li><strong>Your glow colour.</strong></li><li><strong>When you send a glow</strong>, and its colour.</li></ul>
+<p>Only the one person you pair with sees these. Nobody else can find you: pairing needs a code that only you can give, and it stops working after 10 minutes or once it's used.</p>
+<h2>What our server keeps</h2>
+<p>The server keeps only what's needed to pass glows between two phones:</p>
+<ul><li><strong>A random ID for your install</strong> and a scrambled (hashed) form of its secret key. It's made by the app; it isn't your phone's hardware ID or anything that identifies you.</li><li><strong>Your name, first letter, glow colour</strong>, whether you want glow notifications, and which kind of phone you have (iPhone or Android).</li><li><strong>Push tokens</strong>: addresses Apple or Google give your phone so a glow can reach it.</li><li><strong>Who you're paired with</strong>, and <strong>the time and colour of the last glow</strong> each of you sent. Earlier glows aren't kept.</li><li><strong>The time of your last glow and how many you sent today</strong>, to stop glows being sent too fast.</li><li><strong>Your invite code</strong> while it's waiting, for at most 10 minutes.</li></ul>
+<p>The server doesn't keep a history of your glows, your IP address, your location, your contacts or anything about how you use other apps.</p>
+<h2>Who handles it</h2>
+<ul><li><strong>Cloudflare</strong> runs our server and its database. Your data is stored with Cloudflare and may be processed outside your country.</li><li><strong>Apple</strong> (on iPhone) and <strong>Google</strong> (on Android, through Firebase Cloud Messaging) deliver the notifications that tell the other person's phone a glow arrived. They receive the push token and the message: for a glow, the time, the colour, and on iPhone your name for the notification "Alex is thinking of you". They handle it under their own privacy policies.</li></ul>
+<p>We don't sell or share your information with anyone else, and we don't use it for anything but passing glows between the two of you.</p>
+<h2>On your phone</h2>
+<p>Pair Glow also keeps your name, colour, the pair, the last glows and the install's secret key on your phone, so the app and the widget work. The secret key is kept in the iPhone Keychain or encrypted with a key in Android's Keystore. On Android, Pair Glow opts out of Google's cloud backup and device-to-device transfer: a new phone pairs again. On iPhone, the app's data can be part of your own iCloud or computer backups, protected by Apple.</p>
+<h2>How long it's kept, and deleting it</h2>
+<ul><li><strong>Unpair</strong> (Settings → Unpair) removes the pair and its glows from the server for both of you.</li><li><strong>Delete my data</strong> (Settings) removes everything the server keeps about your install, and everything on your phone. It can't be undone.</li><li><strong>Uninstalling</strong> Pair Glow removes what's on your phone. What's on the server is deleted automatically once your install hasn't connected for a year. To have it deleted sooner without the app, write to us (below) and we'll do it.</li></ul>
+<h2>Security</h2>
+<p>Everything travels over encrypted connections (HTTPS). Only a hashed form of your install's secret key is stored on the server, and only your paired partner's install can send glows to yours.</p>
+<h2>Children</h2>
+<p>Pair Glow is meant for people aged 13 and over. We don't knowingly collect information from anyone younger. If you believe a child under 13 is using Pair Glow, write to us and we'll delete their data.</p>
+<h2>Your rights</h2>
+<p>Depending on where you live, you may have the right to see, correct, delete or move your information, or to object to how it's used. You can change your name and colour and delete everything from the app's Settings at any time. For anything else, write to us.</p>
+<h2>Changes</h2>
+<p>If this policy changes, we'll update it here and change the date at the top. If a change affects what we collect, the app will tell you.</p>
+<h2>Contact</h2>
+<p>KGWorks · <a href="mailto:askkgworks@gmail.com">askkgworks@gmail.com</a></p>
+<p>This policy is published at <a href="https://gjeka.github.io/pairglow-privacy/">https://gjeka.github.io/pairglow-privacy/</a>.</p>
+<footer><a href="./">Privacy policy</a> · <a href="support.html">Support</a></footer>
+</main>
+</body>
+</html>
